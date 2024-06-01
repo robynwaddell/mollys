@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+  background-color: rgb(32, 23, 23);
+  width: 100%;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header */
+.header {
+  background-color: #520804;
+  color: white;
+  height: 60px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.header nav ul li {
+  margin: 0 1rem;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Footer */
+.footer {
+  background-color: #520804;
+  color: white;
+  height: 60px;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.footer nav ul li {
+  margin: 0 1rem;
+}
+
+.footer nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Button */
+.btn {
+  padding: 1rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  border-radius: 4px;
+}
+
+.btn.primary {
+  background-color: #fffefe;
+  color: #520804;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  border: 2px solid #fffefe;
+  color: #fffefe;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  height: 620px;
+  padding: 2rem;
+  background-image: url(./img/pexels-goldcircuits-3424107\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+}
+
+.banner h2 {
+  margin-bottom: 1rem;
+}
+
+.banner p {
+  margin-bottom: 2rem;
+}
+
+.banner button + button {
+  margin-left: 1rem;
+}
+
+.bannerbox {
+  background-color: rgba(114, 2, 2, 0.53);
+  width: 500px;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+/* Gallery */
+.gallery {
+  padding: 60px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  height: 250px;
+  width: 300px;
+  margin: 0.5rem;
+  object-fit: cover;
+  border-radius: 4px;
+}
