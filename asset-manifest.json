@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mollys/static/css/main.00c3810e.css",
+    "main.js": "/mollys/static/js/main.c16b6352.js",
+    "static/media/pexels-goldcircuits-3424107 (1).jpg": "/mollys/static/media/pexels-goldcircuits-3424107 (1).18edbb25440333a64e75.jpg",
+    "index.html": "/mollys/index.html",
+    "main.00c3810e.css.map": "/mollys/static/css/main.00c3810e.css.map",
+    "main.c16b6352.js.map": "/mollys/static/js/main.c16b6352.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00c3810e.css",
+    "static/js/main.c16b6352.js"
+  ]
+}
