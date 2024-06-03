@@ -6,10 +6,10 @@ const Footer = () => {
     <footer className="footer">
         <nav>
             <ul>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Main_Page">Privacy</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Main_Page">Terms</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Main_Page">Contact</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Main_Page">About</a></li>
             </ul>
         </nav>
     </footer>
